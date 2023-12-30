@@ -77,4 +77,4 @@ class OrderSerializer(serializers.ModelSerializer):
 class UserSerilializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id','username','email']
+        fields = ['id', 'url', 'username','email', 'groups']
